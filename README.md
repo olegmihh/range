@@ -37,7 +37,7 @@ var new_range = $('.new-range').range(
 ```
 new_range.range('update', 20 /*to*/, 0 /*from*/); // update values handlers
 ```
-### 5. Return values from and to
+### 5. Return values to and from
 ```
 var result = new_range.range('value'); // returned an array
 console.log(result);
