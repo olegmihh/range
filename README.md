@@ -17,7 +17,6 @@ Features:
 ```
 ### 4. Call created hidden input
 ```
-<script>
 var new_range = $('.new-range').range(
 {
   from: 0, 			 						// Handler from. Must have a number value, supporting a negative number;
@@ -31,7 +30,6 @@ var new_range = $('.new-range').range(
   onselect: function() {}   // Callback function on select handler to step;
 }
 );
-</script>
 ```
 ### 4.1 Call function update for desired settings
 ```
